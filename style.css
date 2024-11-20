@@ -1,0 +1,205 @@
+body{
+    background-color: black;
+}
+.common-css {
+    color: white;
+}
+.common-style{
+   margin-top: 2vh;
+}
+/*nav bar contents*/
+.font-weight-bold{
+    font-weight: 700;
+    margin-left: 1%;
+}
+.nav-outerbox{
+    display: flex;
+}
+/*box contents*/
+
+
+.prime-greet-text{
+    font-weight: 700;font-size: 34px;
+}
+.prime-greet-text, .prime-theme-text {    
+    margin-left: 3%;   
+}
+.prime-theme-text{
+    font-size: 18px;
+}
+.prime-first-content-box{
+    margin-top: 10%;
+    
+}
+.prime-front-img {
+    width: 100%;
+}
+.subscription-button,.rent-button{
+border-radius: 5px;
+margin-left: 3%;
+}
+.subscription-button{
+    width: 30%;
+    height: 25%;
+}
+.rent-button{
+    width: 20%;
+    height: 15%;
+}
+.copyright-class {
+    white-space: nowrap; /* Prevent the text from wrapping */
+  }
+  .grid-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+    
+  }
+ .grid-img-1{
+    height: 150px;
+    border-radius: 20px;
+ }
+ .logo-pos{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;;
+ }
+.copyright-class{
+    color: #8197a4;
+}
+.terms-and-condition{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.footer{
+    margin-top: 10vh;
+    background-color: rgb(50, 45, 45);
+}
+
+
+.languages{
+    height: 2rem;
+    width: 3rem;   
+    border-radius: 20%;
+    margin-top: .5rem;
+    
+}
+@media screen and (max-width: 1540px) {
+.languages:hover,.lang-icon:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.arrowdown:hover{
+    rotate: 180deg;
+}
+}
+/* when screenlessthan 800px*/
+
+.language-box{    
+    color: white;
+    text-decoration: none;
+}
+.lang-icon{
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+
+/* @media screen and (min-width:790px){   
+.prime-front-img,.image1-box{
+    width: 50vw;
+} 
+.prime-greet-text,.prime-theme-text{
+font-size: 12px;
+}
+}
+@media screen and (min-width:650px){   
+    .prime-front-img{
+        width: 50vw;
+    }
+}
+@media screen and (max-width:580px){   
+    .prime-greet-text,.prime-theme-text,.subscription-button{
+            margin-left: 1rem;
+    
+        }
+        }*/
+        @media (max-width: 500px) {
+            .navbar-nav {
+                display: none; /* Hide navbar on small screens */
+            }
+        
+            .dropdown {
+                display: block; /* Show dropdown on small screens */
+            }
+        
+            .dropdown-menu {
+                max-width: 500px; /* Set a max-width for dropdown */
+            }
+        }
+        
+@media (max-width:501px) {
+    .dropbtn {
+        background-color:rgb(33, 33, 33);
+        color: white;
+        padding: 8px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        padding-left: 50px;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #6f6c6c;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 5px 6px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #858484}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+        opacity: .9;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #5e5b5b;
+        color: black;
+       
+    
+      }
+}
+@media (min-width:501px) {
+    .dropdown{
+        display: none;
+    }
+    }
+    
+.new-join-prime{
+
+    background-color: rgb(83, 144, 153) !important;
+    color: white !important;
+}
+.new-join-prime:hover{
+
+    background-color: rgb(38, 114, 124) !important;
+    color: white !important;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prime Video</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <!--the nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <!-- Navbar Brand (Logo or Name) -->
+              <div class="dropdown">
+                <button class="dropbtn">Menu&nbsp&nbsp<i class="fa-solid fa-angle-down arrowdown"></i></button>
+                <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">Movies</a>
+                <a href="#">TV&nbspShows</a>
+                <a href="#">Live&nbspTV</a>
+                <a href="#">Categories</a>
+                <a href="#" class="new-join-prime">Join&nbspPrime</a>
+                <a href="#">Subscriptions</a>
+            </div>
+          </div>
+              <a class="navbar-brand font-weight-bold text-white" href="#">Prime Video</a>
+              
+              <!-- Toggler for mobile view -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="row w-100">
+                  <!-- Left Items (4 items on left) -->
+                  <div class="col-12 col-lg-6 d-flex justify-content-start">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Movies</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">TV Shows</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">My List</a>
+                      </li>
+                    </ul>
+                  </div>
+        
+                  <!-- Right Items (4 items on right) -->
+                  <div class="col-12 col-lg-6 d-flex justify-content-end">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fa-solid fa-magnifying-glass search "></i></a>
+                      </li>
+                      <li class="nav-item languages">                        
+                        <a href="#" class="language-box"><span class="lang-icon d-flex align-items-center justify-content-center">
+                            EN &nbsp;<i class="fa-solid fa-angle-down arrowdown"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#"> &nbsp<i class="fa fa-ellipsis-v" aria-hidden="true"> </i>&nbsp<i class="fa fa-ellipsis-v" aria-hidden="true">&nbsp</i><i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#"> &nbsp<i class="fa-regular fa-user admin-icon-style"></i> &nbsp
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link text-white bg-primary rounded" href="#">Join Prime</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--the first box -->
+        <div class="container-fluid ">
+            <div class="row common-css ">
+                <div class="col-12 col-sm-6 order-sm-2 bg-black image1-box">
+                    <img src="images/prime-frontpage-img (1).jpeg" class="img-fluid prime-front-img">
+                </div>
+                <div class="col-12 col-sm-6 order-sm-1 bg-black prime-first-content-box">
+                    <h1 class="prime-greet-text">Welcome to Prime Video</h1>
+                    <p class="prime-theme-text">Join Prime to watch the latest movies, TV shows, and award-winning Amazon Originals</p>
+                    <button onclick="" class="subscription-button">Sign in to Prime</button>
+                </div>
+            </div>
+        </div>
+<!-- the second box-->
+        <div class="container-fluid common-style ">
+            <div class="row common-css ">
+                <div class="col-12 col-sm-6 order-sm-2 bg-black image1-box">
+                    <img src="images\prime-img-2.png" class="img-fluid prime-front-img">
+                </div>
+                <div class="col-12 col-sm-6 order-sm-1 bg-black prime-first-content-box">
+                    <h1 class="prime-greet-text">Movie Rental On Prime Video</h1>
+                    <p class="prime-theme-text">Easy Access to New movies,Before Digital Submission</p>
+                    <button onclick="" class="rent-button">Rent Now</button>
+                </div>
+            </div>
+        </div>
+        <!--Third Box-->
+        <div class="container-fluid common-style ">
+            <div class="row common-css ">
+                <div class="col-sm-6 order-sm-2 favorite-image-link-box">
+                    <div class="grid-container grid-box">
+                        <div class="grid-item "><img src="images/fvt-img-1.jpg" class="img-fluid grid-img-1"></div>
+                        <div class="grid-item "><img src="images/fvt-img-2.jpg" class="img-fluid grid-img-1"></div>
+                        <div class="grid-item"><img src="images/fvt-img-3.jpg" class="img-fluid grid-img-1"></div>  
+                        <div class="grid-item"><img src="images/fvt-img-4.jpg" class="img-fluid grid-img-1"></div>
+                        <div class="grid-item"><img src="images/fvt-img-5.jpg" class="img-fluid grid-img-1"></div>
+                        <div class="grid-item"><img src="images/fvt-img-6.jpg" class="img-fluid grid-img-1"></div>  
+                        <div class="grid-item"><img src="images/fvt-img-7.jpg" class="img-fluid grid-img-1"></div>
+                        <div class="grid-item"><img src="images/fvt-img-8.jpg" class="img-fluid grid-img-1"></div>
+                        <div class="grid-item"><img src="images/fvt-img-9.jpg" class="img-fluid grid-img-1"></div>  
+                      </div>
+                    
+                </div>
+                <div class="col-12 col-sm-6 order-sm-1 bg-black prime-first-content-box">
+                    <h1 class="prime-greet-text">Your favorite subscriptions all in one place</h1>
+                    <p class="prime-theme-text">With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</p>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!--footer copyright-->
+       
+        <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Section 1: Logo -->
+        <div class="col-md-4 text-center text-md-left">
+          <div class="footer-logo logo-pos">
+            <a href="#">
+              
+            </a>
+          </div>
+        </div><br>
+
+        <!-- Section 2: Links -->
+        <div class="col-md-4 text-center text-md-left">
+          <div class="footer-links">
+            <div class="footer-logo logo-pos">
+                <a href="#">
+                    <img src="images\prime-logo.png" alt="Logo">
+                </a>
+              </div>
+            <br>
+            <a href="#" class="terms-and-condition">Terms and Privacy Notice&nbsp&nbspSend us feedback&nbsp&nbspHelp</a><br><br>
+            <a href="#"></a>
+          </div>
+        </div>
+
+        <!-- Section 3: Paragraph (Copyright or other text) -->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+              <!-- Column with responsive width and centered text -->
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
+                <p class="copyright-class ">&copy 1996-2024, Amazon.com, Inc. or its affiliates.</p>
+              </div>
+            </div>
+          </div>
+
+      
+  </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
